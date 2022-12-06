@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BeaufortforLOL-Bold;
+}
+.container{
+    font-weight: bold;
+    width: 1440px;
+    height: 825px;
+    margin: auto;
+}
+.logo{
+     padding: 32px 600px;
+ }
+ li:hover{
+    text-decoration: underline ;
+ }
+ ul{
+    font-weight: bold;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding: 0 16px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.item-img{
+    margin-bottom: -5px;
+}
+.item-info{
+    padding: 27px 140px;
+    color: #FFFFFF;
+    background-color: #0E4C67;
+    width: 328px;
+    height: 80px;
+    margin: auto;
+    
+}
+.champ-row1{
+    padding-top: 62.2px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin: auto;
+}
+.champ-row2{
+    padding-top: 32px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin: auto;
+}
+.champ-row3{
+    padding-top: 32px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin: auto;
+}
+.intro-video{
+    padding: 64px 0px;
+}
+.footer{
+    height: 100px;
+    background-color: #0E4C67;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 16px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: auto 0;
+}
+.email{
+    text-align: right;
+    margin: auto 0;
+}
+.inp-email{
+    width: 280px;
+    height: 52px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 20px;
+}
+.btn-submit{
+    width: 120px;
+    height: 52px; 
+    background-color:  #FFA800;
+    border: none; 
+    border-radius: 5px;
+    color: #ffffff; 
+    margin-left: 24px;
+}
